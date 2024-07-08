@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="book.css" />
+    <title>Book Now</title>
+  </head>
+
+  <body class="main_bg">
+    
+    <div class="form">
+      <div class="form-text">
+        <h1>Book Now</h1>
+      </div>
+      <div class="main-form">
+        <form action="payment.html" method="post">
+          <div>
+            <span>Full Name</span>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+              required
+            />
+          </div>
+          <div>
+            <span>Email Address</span>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div>
+            <span>No of Male</span>
+            <select name="male" id="male" required>
+              <option value="">Select</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div>
+            <span>No of Female</span>
+            <select name="female" id="female" required>
+              <option value="">Select</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div>
+            <span>No of Children</span>
+            <select name="children" id="children" required>
+              <option value="">Select</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div>
+            <span>Date</span>
+            <input
+              type="date"
+              name="date"
+              class="custom-date-picker"
+              placeholder="date"
+              required
+            />
+          </div>
+          <div>
+            <span>Phone No</span>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              placeholder="Phone No"
+              required
+            />
+          </div>
+          <div id="submit">
+            
+            <input type="submit" value="Submit" id="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+ <div class="wrapper">
+  <div class="form-wrapper sign-in">
+    <form action="">
+      <h2>Login</h2>
+      <div class="input-group">
+        <input type="email"required>
+        <label for="">Email</label>
+      </div>
+
+      <div class="input-group">
+        <input type="password"required id="password" class="password-input">
+        <i id="togglepassword"class="fa-solid fa-eye-slash password-icon"></i>
+        <label for="">Password</label>
+      </div>
+
+      <div class="remember">
+        <label><input type="checkbox"> Remember Me</label>
+      </div>
+      <button type="submit">Login</button>
+      <div class="signUp-link">
+        <p>Don't have account yet ? <a href="#"class="signUpBtn-link">Register</a></p>
+      </div>
+      <div class="social-platform">
+        <p>Or Login with</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+  
+      </div>
+    </form>
+
+  </div>
+
+  <div class="form-wrapper sign-up">
+    <form action="">
+      <h2>Create Account</h2>
+      <div class="input-group">
+        <input type="text"required>
+        <label for="">Full Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email"required>
+        <label for="">Email</label>
+      </div>
+
+      <div class="input-group">
+        <input type="password"required>
+        <label for="">Password</label>
+      </div>
+
+      <div class="remember">
+        <label><input type="checkbox"> I agree to terms & conditions</label>
+      </div>
+      <button type="submit">Register</button>
+      <div class="signUp-link">
+        <p>Already have account ? <a href="#"class="signInBtn-link">Login</a></p>
+      </div>
+
+ <script src="login.js"></script>
+</body>
+</html>
