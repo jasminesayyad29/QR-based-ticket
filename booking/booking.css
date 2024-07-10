@@ -128,9 +128,9 @@ option {
   height: 50px;
   text-align: center;
   cursor: pointer;
-  
+
 }
-#submit input {
+.jass {
   width: 200px;
   background-color: yellow;
   color: black;
@@ -138,12 +138,12 @@ option {
   border-radius: 10px;
   font-size: 25px;
 }
-#submit input:hover {
+.jass:hover {
   width: 200px;
   background-color: black;
   color: #fff;
 }
-#submit input:active {
+.jass:active {
   font-size: 19px;
   background-color: rgb(46, 20, 5);
   color: #fff;
