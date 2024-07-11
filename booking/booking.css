@@ -128,8 +128,10 @@ option {
   height: 50px;
   text-align: center;
   cursor: pointer;
-
 }
+#submit a{
+  text-decoration: none;
+} 
 .jass {
   width: 200px;
   background-color: yellow;
@@ -137,6 +139,7 @@ option {
   transition: all 0.3s;
   border-radius: 10px;
   font-size: 25px;
+  border: none;
 }
 .jass:hover {
   width: 200px;
